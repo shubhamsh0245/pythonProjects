@@ -14,8 +14,7 @@ A = int(input("From: "))
 B = int(input("To: "))
 
 try:
-    # ans = random.randrange(A,B)
-    ans = 15
+    ans = random.randrange(A,B)
 
 except:
     print("An Error Occured!")
